@@ -1,11 +1,15 @@
 package com.company;
 
 public class Undergrad extends Student {
-    public static void main(String[] args) {
-        String capstone = "Example capstone";
-        int numOfInternships = 5;
+    String capstone;
+    int numOfInternships;
 
-        System.out.println(capstone);
-        System.out.println(numOfInternships);
+    void PrintUndergrad() {
+        System.out.println("Capstone: " + capstone);
+        System.out.println(("Number of internships: " + numOfInternships));
+    }
+
+    Undergrad(String n, int a, int s, String advisor) {
+        super(n, a, s, advisor);
     }
 }

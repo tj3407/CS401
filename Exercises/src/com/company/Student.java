@@ -6,6 +6,13 @@ public class Student {
     int SSNum;
     String Advisor;
 
+    public Student(String n, int a, int s, String advisor) {
+        Name = n;
+        age = a;
+        SSNum = s;
+        Advisor = advisor;
+    }
+
     void PrintInfo() {
         System.out.println("Name: " + Name);
         System.out.println("age: " + age);
