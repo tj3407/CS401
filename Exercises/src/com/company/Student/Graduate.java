@@ -1,6 +1,8 @@
-package com.company;
+package com.company.Student;
 
-public class Graduate extends Student{
+import com.company.Student.Student;
+
+public class Graduate extends Student {
     String thesis;
     int numOfPapers;
 

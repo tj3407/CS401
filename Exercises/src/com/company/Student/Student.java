@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Student;
 
 public class Student {
     String Name;
@@ -11,6 +11,10 @@ public class Student {
         age = a;
         SSNum = s;
         Advisor = advisor;
+    }
+
+    public  Student() {
+
     }
 
     void PrintInfo() {

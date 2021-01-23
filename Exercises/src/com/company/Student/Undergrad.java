@@ -1,4 +1,6 @@
-package com.company;
+package com.company.Student;
+
+import com.company.Student.Student;
 
 public class Undergrad extends Student {
     String capstone;
